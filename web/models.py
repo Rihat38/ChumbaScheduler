@@ -17,3 +17,4 @@ class Case(models.Model):
     is_repeatable = models.BooleanField(default=False)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     tag = models.ManyToManyField(Tag)
+    image = models.ImageField(upload_to='planned_cases/', null=True, blank=True)
