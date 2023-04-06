@@ -6,5 +6,6 @@ A task scheduler that will be not just an assistant to you, but also a friend Th
 - 'python3 -m venv venv' - Creating a virtual environment
 - 'venv/Scripts/activate.ps1' - Virtual environment activating
 - 'pip install -r requirements.txt' - Installing packages from requirements.txt
+- install postgreSQL and added to project
 - 'python manage.py migrate' - Applying migrations
 - 'python manage.py runserver' - server running for development on http://
